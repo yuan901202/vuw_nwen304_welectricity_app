@@ -6,7 +6,7 @@ Welectricity developed by Ninja Hertz
 ### Engineers:
 John Armstrong (https://github.com/jman48)
 
-Tianfu Yuan (Tony) (https://github.com/yuan901202)
+Tianfu Yuan (me) (https://github.com/yuan901202)
 
 ### Designers:
 Nicola Roundill
