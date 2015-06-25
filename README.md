@@ -11,7 +11,7 @@ Tianfu Yuan (Tony) (https://github.com/yuan901202)
 ### Designers:
 Nicola Roundill
 
-Josh Clapp
+Josh Bottomley-Clapp
 
 Nicolas Hamilton
 
