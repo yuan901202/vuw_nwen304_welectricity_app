@@ -24,14 +24,14 @@ To design frontend and backend system, we using authentication to identify the u
 ## Contributors
 
 ### Engineers:
-#### John Armstrong (https://github.com/jman48)
+[1] Tianfu Yuan (me) (https://github.com/yuan901202)
 
-#### Tianfu Yuan (me) (https://github.com/yuan901202)
+[2] John Armstrong (https://github.com/jman48)
 
 ### Designers:
-#### Nicola Roundill (https://github.com/nicolaroundill)
+[1] Nicola Roundill (https://github.com/nicolaroundill)
 
-#### Josh Bottomley-Clapp (https://github.com/joshclapp)
+[2] Josh Bottomley-Clapp (https://github.com/joshclapp)
 
-#### Nicolas Hamilton
+[3] Nicolas Hamilton
 
