@@ -29,9 +29,9 @@ To design frontend and backend system, we using authentication to identify the u
 #### Tianfu Yuan (me) (https://github.com/yuan901202)
 
 ### Designers:
-#### Nicola Roundill
+#### Nicola Roundill (https://github.com/nicolaroundill)
 
-#### Josh Bottomley-Clapp
+#### Josh Bottomley-Clapp (https://github.com/joshclapp)
 
 #### Nicolas Hamilton
 
