@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/AnimateCSS.css" rel="stylesheet">
+    <link href="css/LoginCSS.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+
+    <!-- Libraries -->
+    <script src="lib/angular-dragdrop/src/angular-dragdrop.js"></script>
+    <script src="lib/jquery-ui/jquery-ui.min.js"></script>
+    <script src="lib/bootstrap/bootstrap.min.js"></script>
+    <script src="lib/parallax/parallax.js"></script>
+    <script src="lib_custom/jquery-ui-touch-punch/touch-punch.min.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
+
+    <!-- Login and signup stuff -->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- controllers -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers/titlePageCtrl.js"></script>
+    <script src="js/controllers/gamePlayCtrl.js"></script>
+    <script src="js/controllers/cityViewCtrl.js"></script>
+    <script src="js/controllers/navCtrl.js"></script>
+    <script src="js/controllers/signUpCtrl.js"></script>
+    <script src="js/controllers/loginCtrl.js"></script>
+
+    <!-- services and directives -->
+    <script src="js/services/gameService.js"></script>
+    <script src="js/services/saveLoadService.js"></script>
+    <script src="js/services/popOverService.js"></script>
+    <script src="js/services/autoSaveService.js"></script>
+    <script src="js/services/userInfoService.js"></script>
+    <script src="js/services/plantService.js"></script>
+    <script src="js/services/SoundService.js"></script>
+    <script src="js/services/authService.js"></script>
+
+    <script src="js/directives/popOver.js"></script>
+    <script src="js/directives/plantIconDir.js"></script>
+    <script src="js/directives/gamePlayScript.js"></script>
+    <script src="js/directives/titlePageScript.js"></script>
+    <script src="js/directives/cityViewScript.js"></script>
+</head>
+<body ng-app="welc">
+
+<ion-pane>
+    <ion-header-bar class="customColours" ng-controller="NavCtrl">
+        <div class="h1 title">Welectricity</div>
+        <!--<button class="button icon ion-navicon" ng-click="popover.show($event)"></button>-->
+        <div class="buttons">
+
+            <!-- Views -->
+            <div ng-show="loggedIn">
+                <button class="button button-icon ion-ios-navigate-outline customIcon dropdown-toggle dropdown " data-toggle="dropdown">
+                    <!--<i class="ion-ios-navigate-outline navbar-icon-resize"></i>-->
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a ng-click="$state.go(&apos;gamePlay&apos;)" href="#">Game Play</a></li>
+                    <li><a ng-click="$state.go(&apos;cityView&apos;)" href="#">City View</a></li>
+                </ul>
+            </div>
+
+            <!-- Settings -->
+            <div ng-show="loggedIn">
+                <button class="button button-icon ion-android-settings customIcon dropdown-toggle dropdown " data-toggle="dropdown">
+                    <!--<i class="ion-ios-navigate-outline navbar-icon-resize"></i>-->
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="#">Hide stats</a></li>
+                    <li><a href="#">Mute</a></li>
+                    <li><a ng-click="deleteUser()" href="#">Delete User</a></li>
+                    <li><a ng-click="$state.go(&apos;titlePage&apos;)" href="#">Exit to Menu</a></li>
+                    <li><a ng-click="logOut()" href="#">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </ion-header-bar>
+    <ion-nav-view></ion-nav-view>
+</ion-pane>
+</body>
+</html>
