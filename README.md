@@ -1,6 +1,8 @@
 # Welectricity
 Welectricity developed by Ninja Hertz
 
+Download App (Android only): https://github.com/yuan901202/welectricity/raw/master/release/welectricity_beta.apk
+
 ## Introduction
 
 Welectricity is an educational gaming application designed to teach children aged between 6 to 12 years­old about electricity generation. Its aim is to teach the user how electricity generation is difficult and the effects that this has on the environment. While playing the game the users will have to strike a balance between creating enough energy for their city while keeping pollution to a minimum to stop people moving out of their city. This balance is aimed to show the users that just going all renewable may not be the best bet and vice versa for non renewable. We have chosen the most common power generation plants that New Zealand uses (with the exception of nuclear). All our stats where at first based on actual numbers and then modified slightly to make the game more attractable to our target audience. Because of these reasons the user will be able to gain an understanding about the difficulties in electricity generation and even gain insight into how we may be able to start to tackle this problem.
